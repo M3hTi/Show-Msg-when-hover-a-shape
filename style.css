@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0c868b;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .shape {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .square {
+    background-color: #ff6b35;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid #ffce00;
+  }
+  
+  .circle {
+    background-color: #0060b1;
+    border-radius: 50%;
+  }
+
